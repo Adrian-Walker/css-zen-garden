@@ -1,8 +1,48 @@
+@import url (http://www.csszengarden.com/214/214.css?v=8may2013);
+
+
 .container {
     display: grid;
-    grid-row: 4/6;
+    grid-template-rows: 200px repeat(auto-fill, 100px) 300px;
+    font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+	margin: 0;
+	padding: 0;
 }
+
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+	margin: 0;
+	padding: 0;
+	}
+
 
 .container > div{
     border: solid black 2px;
 }
+
+#first{
+    background-image: url("http://www.csszengarden.com/214/gridlines.png"), url("http://www.csszengarden.com/214/contours.png"), url("http://www.csszengarden.com/214/huntington.jpg");
+    background-size: auto, auto, cover;
+    background-attachment: fixed, fixed, scroll;
+    background-repeat: repeat, repeat, no-repeat;
+    grid-row: 1/2;
+    height: 300px;
+}
+
+#second {
+    height: 300px;
+}
+
+
+#third {
+	clear: both;
+	/* margin: 20px 20px 20px 10px; */
+	/* width: 160px; */
+	float: left;
+	}
