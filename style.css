@@ -20,6 +20,15 @@
     grid-template-rows: repeat(6)
 }
 
+nav {
+	display: block;
+}
+
+ul{
+	display: block;
+	list-style: none;
+}
+
 p {
 	margin: 0.75em 0;
     line-height: 2;
